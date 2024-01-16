@@ -15,6 +15,9 @@ syntax match cdsOperator "\%(==\|>=\|<=\|!=\|\~=\|\~<\|\~>\|\.\.\|++\|--\|\~\~\|
 syntax match cdsOperator "\%(\~>=\|\~<=\|=:=\|\~!=\|:=_\)"
 highlight def link cdsOperator Operator
 
+syntax match cdsConstant "\%(i\|pi\)"
+highlight def link cdsConstant Constant
+
 syntax match cdsBoolean "\%(true\|false\)"
 highlight def link cdsBoolean Boolean
 
