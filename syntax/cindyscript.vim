@@ -21,6 +21,9 @@ highlight def link cdsConstant Constant
 syntax match cdsBoolean "\%(true\|false\)"
 highlight def link cdsBoolean Boolean
 
+syntax match cdsFunction "\a\(\a\|\d\)*\(\_s\)*("me=e-1,he=e-1
+highlight def link cdsFunction Function
+
 syntax region cdsString start=/"/ end=/"/
 highlight def link cdsString String
 
