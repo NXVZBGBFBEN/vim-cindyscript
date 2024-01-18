@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.cs set filetype=cindyscript
+autocmd BufNewFile,BufRead *.cs,*.cds set filetype=cindyscript
